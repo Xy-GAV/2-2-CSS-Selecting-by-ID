@@ -10,7 +10,7 @@ body{
 div{
     background-color: #fff;
     padding: 10px 25px;
-    font-size: 16 px;
+    font-size: 16px;
     border: 1px solid #ccc;
     line-height: 1.7;
     position: relative;
@@ -26,6 +26,29 @@ div:before{
     background-color: #000;
     border: 3px solid #ddd;
     position: absolute;
-    top: 10 px;
+    top: 10px;
     left: -40px;
+}
+div:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ddd transparent transparent;
+    border-width: 8px;
+    left: -17px;
+    top: 10px;
+}
+div h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+div h3{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div h4{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
